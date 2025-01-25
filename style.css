@@ -1,3 +1,86 @@
 body {
-    color: hotpink;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100vh;
+    padding: 1rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    flex: 1;
+    padding: 1rem;
+}
+
+.menu img {
+    width: 120px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.menu-description {
+    flex: 1;
+}
+
+.menu-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-explain {
+    font-weight: 200;
+    font-size: 14px;
+    width: 90%;
+    color: gray;
+    margin: 0;
+}
+
+
+.price {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.price p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.description-text {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.subtitle-1 {
+    color: orange;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
 }
